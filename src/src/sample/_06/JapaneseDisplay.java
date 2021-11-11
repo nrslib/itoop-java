@@ -1,6 +1,6 @@
 package sample._06;
 
-public class JapaneseDisplay implements Display {
+class JapaneseDisplay implements Display {
     public void show(int result) {
         if (result == 1) {
             System.out.println("勝ち");

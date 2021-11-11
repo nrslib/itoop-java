@@ -5,7 +5,7 @@ class JankenGame {
     Rule rule;
     JankenResultGateWay resultGateWay;
 
-    public JankenGame(Display display, Rule rule, JankenResultGateWay resultGateWay) {
+    JankenGame(Display display, Rule rule, JankenResultGateWay resultGateWay) {
         this.display = display;
         this.rule = rule;
         this.resultGateWay = resultGateWay;

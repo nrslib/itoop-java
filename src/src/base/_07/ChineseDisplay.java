@@ -1,6 +1,6 @@
 package base._07;
 
-public class ChineseDisplay implements Display {
+class ChineseDisplay implements Display {
     public void show(int result) {
         if (result == 1) {
             System.out.println("你赢了");

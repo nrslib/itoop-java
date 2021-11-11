@@ -1,5 +1,5 @@
 package base._07;
 
-public interface Rule {
+interface Rule {
     int judge(int player, int cpu);
 }

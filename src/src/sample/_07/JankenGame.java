@@ -4,7 +4,7 @@ class JankenGame {
     Display display;
     Rule rule;
 
-    public JankenGame(Display display, Rule rule) {
+    JankenGame(Display display, Rule rule) {
         this.display = display;
         this.rule = rule;
     }

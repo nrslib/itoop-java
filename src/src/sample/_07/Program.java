@@ -5,8 +5,8 @@ public class Program {
         var display = new JapaneseDisplay();
         var rule = new NormalRule();
         var game = new JankenGame(display, rule);
+        game.play(0, 2);
         game.play(1, 2);
         game.play(2, 2);
-        game.play(3, 2);
     }
 }

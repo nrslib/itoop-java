@@ -1,7 +1,6 @@
 package base._07;
 
-public class ReverseRule implements Rule {
-    @Override
+class ReverseRule implements Rule {
     public int judge(int player, int cpu) {
         if (player == 0) {
             if (cpu == 0) {

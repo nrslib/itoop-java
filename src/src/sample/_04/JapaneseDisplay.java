@@ -1,7 +1,7 @@
 package sample._04;
 
-public class JapaneseDisplay {
-    public void show(int result) {
+class JapaneseDisplay {
+    void show(int result) {
         if (result == 1) {
             System.out.println("勝ち");
         } else if (result == 0) {

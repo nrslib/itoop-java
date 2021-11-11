@@ -1,7 +1,7 @@
 package base._01;
 
-public class JankenProgram {
-    public void play(int player, int cpu) {
+class JankenProgram {
+    void play(int player, int cpu) {
         var result = judge(player, cpu);
         showResult(result);
     }

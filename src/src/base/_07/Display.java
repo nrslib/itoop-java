@@ -1,5 +1,5 @@
 package base._07;
 
-public interface Display {
+interface Display {
     void show(int result);
 }

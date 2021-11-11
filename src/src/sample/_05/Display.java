@@ -1,5 +1,5 @@
 package sample._05;
 
-public interface Display {
+interface Display {
     void show(int result);
 }

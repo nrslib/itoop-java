@@ -1,7 +1,7 @@
 package sample._04;
 
-public class EnglishDisplay {
-    public void show(int result) {
+class EnglishDisplay {
+    void show(int result) {
         if (result == 1) {
             System.out.println("win");
         } else if (result == 0) {
