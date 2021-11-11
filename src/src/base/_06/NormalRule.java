@@ -1,7 +1,6 @@
 package base._06;
 
 class NormalRule implements Rule {
-    @Override
     public int judge(int player, int cpu) {
         if (player == 0) {
             if (cpu == 0) {
