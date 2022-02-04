@@ -12,7 +12,7 @@ class JankenGame {
     }
 
     Rule getRule(String ruleName) {
-        if (ruleName.equals("normal")) {
+        if (ruleName.equals("default")) {
             return new NormalRule();
         } else {
             return new ReverseRule();
